@@ -1,0 +1,127 @@
+* { margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0)),url(logo1.jpg);
+  background: cover;
+  background-position: center;
+}
+.logo{
+  width: 20%;
+  cursor: pointer;
+  
+}
+.content {
+  width: 10%;
+  height: auto;
+}
+.navbar{
+  width:100% ;
+  margin:  auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  text-transform: uppercase;
+}
+.navbar ul li ::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li :hover ::before{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.75);
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 30%;
+  border-radius: 5px;
+  margin-left: %;
+  margin-right: %;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  overflow-y: auto;
+}
+.content h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.content h4{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.content button{
+  width: 100px;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size:  20px;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+}
+.user1{
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.75);
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 56%;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  transform: translateY(-50%);
+  text-align: left;
+  text-indent: 28px;
+  color: #fff;
+  overflow-y: auto;
+}
+.user1 img{
+  object-fit:cover ;
+  border-radius: 100%;
+}
+.user2{
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.75);
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 77%;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  transform: translateY(-50%);
+  text-align: left;
+  text-indent: 28px;
+  color: #fff;
+  overflow-y: auto;
+}
